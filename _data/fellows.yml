@@ -1,15 +1,15 @@
-- name: Will
+- name: Luciano
   img: logo.jpg
-  location: London, UK
+  location: Adelaide, SA Australia
 
-- name: Amanda
+- name: Luciana
   img: amanda.jpg
-  location: New York City, USA
+  location: Adelaide, SA Australia
 
-- name: Aaron
+- name: Peter
   img: aaron.jpg
-  location: London, UK
+  location: Johannesburg, South Africa
 
-- name: Swift
+- name: Cat
   img: swift.jpg
-  location: New York City, USA
+  location: Adelaide, SA Australia
