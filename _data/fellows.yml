@@ -1,10 +1,10 @@
 - name: Luciano
   img: logo.jpg
-  location: Adelaide, SA Australia
+  location: Adelaide, Australia
 
 - name: Luciana
   img: amanda.jpg
-  location: Adelaide, SA Australia
+  location: Adelaide, Australia
 
 - name: Louise 
   img: swift.jpg
@@ -16,12 +16,16 @@
 
 - name: Cat
   img: swift.jpg
-  location: Adelaide, SA Australia
+  location: Adelaide, Australia
 
 - name: Chris
   img: swift.jpg
-  location: Adelaide, SA Australia
+  location: Adelaide, Australia
 
 - name: Peter
   img: swift.jpg
-  location: Camberra, CA Australia
+  location: Camberra, Australia
+
+- name: Axayacatl
+  img: swift.jpg
+  location: Enseanda, Mexico
