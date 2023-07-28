@@ -6,6 +6,10 @@
   img: amanda.jpg
   location: Adelaide, SA Australia
 
+- name: Louise 
+  img: swift.jpg
+  location: Québec,  Canada
+
 - name: Peter
   img: aaron.jpg
   location: Johannesburg, South Africa
@@ -13,3 +17,11 @@
 - name: Cat
   img: swift.jpg
   location: Adelaide, SA Australia
+
+- name: Chris
+  img: swift.jpg
+  location: Adelaide, SA Australia
+
+- name: Peter
+  img: swift.jpg
+  location: Camberra, CA Australia
