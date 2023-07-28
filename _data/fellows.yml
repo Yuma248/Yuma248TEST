@@ -1,31 +1,35 @@
-- name: Luciano
+- name: Luciano Beheregaray
   img: logo.jpg
-  location: Adelaide, Australia
+  location: Flinders Univeristy, Australia
 
-- name: Luciana
+- name: Luciana Möller
   img: amanda.jpg
-  location: Adelaide, Australia
+  location: Flinders Univeristy, Australia
 
-- name: Louise 
+- name: Louise Bernatchez 
   img: swift.jpg
-  location: Québec,  Canada
+  location: Université Laval,  Canada
 
-- name: Peter
+- name: Peter Teske
   img: aaron.jpg
-  location: Johannesburg, South Africa
+  location: University of Johannesburg, South Africa
 
-- name: Cat
-  img: swift.jpg
-  location: Adelaide, Australia
+- name: Maren Wellenreuther
+  img: aaron.jpg
+  location: Plant & Food Research, New Zealand 
 
-- name: Chris
+- name: Cat Attard
   img: swift.jpg
-  location: Adelaide, Australia
+  location: Flinders University, Australia
 
-- name: Peter
+- name: Chris Brauer
   img: swift.jpg
-  location: Camberra, Australia
+  location: Flinders University, Australia
 
-- name: Axayacatl
+- name: Peter Unmack 
   img: swift.jpg
-  location: Enseanda, Mexico
+  location: University of Camberra, Australia
+
+- name: Axayacatl Rocha-Olivares
+  img: swift.jpg
+  location: CICESE, Mexico
