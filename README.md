@@ -1,71 +1,14 @@
-# Portfolio Template
+# Hola !!!
 
-This is a Jekyll website template designed for Prep Fellows.
+I am Yuma a marine biologist diving the vast Coding Ocean, keep finding myself in bug-infested waters, tangled in the tentacles of errors, and scared of killer Java bytes.
+
+I am working in the Molecular Ecology Lab at Flinders University (MELFU) with Prof Luciano Beheregaray. My main interest is the integration of molecular and ecological approaches to better understand evolutionary processes. I have been involved in molecular ecology research since 2000.
+
+In my spare time,  I collaborate with the revegetation Morialta Biolink Landcare Group in revegetation projects to re-establish some Australian bushland to connect and restore the native ecosystems in the Adelaide Hills region. And when the weather allows I enjoy some skydiving.
+
+To learn more about my career, and discuss evolution, please visit my personal website at Yuma248.
 
 
-## Make your own!
+## My personal webpage!
 
-1. Use the Template button.
-2. Update `_config.yml` to contain your information.
-    1. Change `url` to the URL you'll be hosting it at
-    2. Make sure it has the /
-3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
 
-## Add your portfolio
-
-Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
-
-Project example.
-```yaml
-- title: Online Shopping Application
-  event: MLH Prep - Batch 4.5
-  date: Fall 2021
-```
-
-Experience example.
-```yaml
-- role: MLH Prep Fellow
-  company: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
-```
-
-Education example.
-```yaml
-- course: Prep Fellow
-  institute: MLH Fellowship
-  dates: Fall 2021
-  logo: fellowship.svg
-```
-## Add project posts
-
-1. Make a new `.md` file inside of `projects`.
-2. Add the header to your markdown file (see below) and change the title to the name of your blog post.
-3. Write your project page! Can be a README from GitHub or your Devpost page.
-4. Add the `page-name` field to your `projects.yml` (see below).
-
-Top of post markdown file post.
-```
----
-title: Project
-layout: page
----
-```
-
-`projects.yml` with the `page-name` field.
-
-```yaml
-- title: Online Shopping Application
-  event: MLH Prep - Batch 4.5
-  date: Summer 2021
-  page-name: project
-```
-
-## Development
-
-If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
-
-```
-bundle install --path vendor/bundle
-bundle exec jekyll serve
-```
