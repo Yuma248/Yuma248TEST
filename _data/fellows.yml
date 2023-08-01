@@ -14,10 +14,26 @@
   img: aaron.jpg
   location: University of Johannesburg, South Africa
 
+- name: Peter Unmack 
+  img: swift.jpg
+  location: University of Camberra, Australia
+  
 - name: Maren Wellenreuther
   img: aaron.jpg
   location: Plant & Food Research, New Zealand 
 
+- name: Axayacatl Rocha-Olivares
+  img: swift.jpg
+  location: CICESE, Mexico
+  
+- name: Jon Waters
+  img: swift.jpg
+  location: University of Otago, New Zealand
+  
+- name: Chris Brauer
+  img: swift.jpg
+  location: Flinders University, Australia
+  
 - name: Cat Attard
   img: swift.jpg
   location: Flinders University, Australia
@@ -26,14 +42,3 @@
   img: swift.jpg
   location: Flinders University, Australia
 
-- name: Chris Brauer
-  img: swift.jpg
-  location: Flinders University, Australia
-
-- name: Peter Unmack 
-  img: swift.jpg
-  location: University of Camberra, Australia
-
-- name: Axayacatl Rocha-Olivares
-  img: swift.jpg
-  location: CICESE, Mexico
