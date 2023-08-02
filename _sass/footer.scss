@@ -19,7 +19,6 @@
   @include relative-font-size(0.9375);
   color: #828282;
   margin-left: 15px;
-  @extend %clearfix;
 }
 
 .footer-col {
