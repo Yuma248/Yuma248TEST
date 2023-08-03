@@ -22,7 +22,7 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-          <b><a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include github.png %}</span><span class="username">Github</span></a></b>
+          <b>{{site.github_user | escape}}</b>
           {% endif %}
            </li> 
           {% if site.twitter_username %}
