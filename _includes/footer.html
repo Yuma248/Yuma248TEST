@@ -38,16 +38,30 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-          <a href="https://github.com/{{ site.github_user }}">
-          <b>{{ "Github" | escape }}</b>
-          {% endif %}
-           </li> 
+              <a href="https://github.com/{{ site.github_user }}">
+              <b>{{ "Github" | escape }}</b>
+          </li> 
+	  {% endif %}
           {% if site.twitter_username %}
           <li>
-          <a href="https://twitter.com/{{ site.github_user }}">  
-          <b>{{ "Twitter" | escape }}</b>
-          {% endif %}
+              <a href="https://twitter.com/{{ site.github_user }}">  
+              <b>{{ "Twitter" | escape }}</b>
           </li>
+	  {% endif %}
+	  {% if site.researchgate %}
+          <li>
+              <a href="https://www.researchgate.net/profile/{{ site.researchgate }}">  
+              <b>{{ "Researchgate" | escape }}</b>
+          </li>
+	  {% endif %}
+          {% if site.researchgate %}
+          <li>
+              <a href="https://scholar.google.com.au/citations?user={ site.googlescholar }}">  
+              <b>{{ "GoogleShcolar" | escape }}</b>
+          </li>
+	  {% endif %}
+
+		
         </ul>
       </div>    
       
