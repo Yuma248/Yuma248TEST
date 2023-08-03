@@ -35,6 +35,20 @@
         </ul>
       </div>
 
+     <div class="footer-col footer-col-3">
+	   <ul style="list-style-type:none">
+	     <li>
+		   {% if site.description %}
+              <b>{{ site.description | escape }}</b>
+           {% endif %}
+		   </li>
+		   <li>
+		   {% if site.description2 %}
+              <i>{{ site.description2 | escape }}</i>
+           {% endif %}
+		   </li>
+      </ul>
+	  </div> 
       
   </div>
 
