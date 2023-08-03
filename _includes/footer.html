@@ -22,7 +22,8 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-          <b>{{ site.github_user | escape }}</b>
+          <a href="https://github.com/{{ site.github_user }}">
+          <b>{{ "Github" | escape }}</b>
           {% endif %}
            </li> 
           {% if site.twitter_username %}
