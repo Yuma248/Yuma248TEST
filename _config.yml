@@ -7,10 +7,9 @@ baseurl: "/"
 url: "" 
 twitter_username: Yuma_More
 github_username: Yuma248
-google_scholar: Jonathan Sandoval-Castillo
-researchgate: Jonathan Sandoval-Castillo
+googlescholar: Xy6VyBcAAAAJ&h
+researchgate: Jonathan-Sandoval-Castillo
 orcid: 0000-0002-8428-3495
-scopus: Jonathan Sandoval-Castillo
 
 sass:
   sass_dir: _sass
