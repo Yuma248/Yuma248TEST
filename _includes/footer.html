@@ -3,6 +3,21 @@
   <div class="wrapper">
 
     <h2 class="footer-heading"><b>{{ site.title | escape }}</b></h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+            <b>{{ site.author | escape }}</b>
+            {% else %}
+            <b>{{ site.title | escape }}</b>
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
 
   </div>
 
