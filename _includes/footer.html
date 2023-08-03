@@ -21,15 +21,10 @@
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
-          <li>
-            <b>{% include icon-github.html username=site.github_username %}</b>
-          </li>
+          <b>{{ site.github_username | escape }}</b>
           {% endif %}
-
           {% if site.twitter_username %}
-          <li>
-            <b>{% include icon-twitter.html username=site.twitter_username %}</b>
-          </li>
+            <b>{{site.twitter_username | escape }</b>
           {% endif %}
 
         </ul>
