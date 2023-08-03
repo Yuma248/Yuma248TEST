@@ -54,13 +54,18 @@
               <b>{{ "Researchgate" | escape }}</b>
           </li>
 	  {% endif %}
-          {% if site.researchgate %}
+          {% if site.googlescholar %}
           <li>
               <a href="https://scholar.google.com.au/citations?user={ site.googlescholar }}">  
               <b>{{ "GoogleShcolar" | escape }}</b>
           </li>
 	  {% endif %}
-
+          {% if site.orcid%}
+          <li>
+              <a href="https://orcid.org/{ site.orcid }}">  
+              <b>{{ "Orcid" | escape }}</b>
+          </li>
+	  {% endif %}
 		
         </ul>
       </div>    
