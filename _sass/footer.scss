@@ -42,7 +42,12 @@
   width: -webkit-calc(45% - 15);
   width:         calc(45% - 15);
 }
-img {
+
+    
+.soc-icon {
+    width: 20px;
+    height: 20px;
+    img {
         border-radius: 50%;
         max-width: 10%;
         max-height: 10%;
@@ -51,8 +56,4 @@ img {
         display: inline;        
         padding: 20px;
     }
-    
-.soc-icon {
-    width: 20px;
-    height: 20px;
 }
