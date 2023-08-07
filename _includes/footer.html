@@ -38,7 +38,7 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-              <a href="https://github.com/{{ site.github_user }}">
+              <a href="https://github.com/{{ site.github_username }}">
                  <span class="soc-icon">
                   <img src="../assets/img/GithubW.svg.png" alt="Github"/>
                 </span>
@@ -47,7 +47,7 @@
       	  {% endif %}
           {% if site.twitter_username %}
           <li>
-              <a href="https://twitter.com/{{ site.twitter_user }}">  
+              <a href="https://twitter.com/{{ site.twitter_username }}">  
                <span class="soc-icon">
                   <img src="../assets/img/TwitterW.png" alt="Twitter"/>
                 </span>
@@ -65,7 +65,7 @@
 	  {% endif %}
           {% if site.googlescholar %}
           <li>
-              <a href="https://scholar.google.com.au/citations?user={ site.googlescholar }}">  
+              <a href="https://scholar.google.com.au/citations?user={{ site.googlescholar }}">  
               <span class="soc-icon">
                   <img src="../assets/img/GoogeleScholarW.png" alt="ResearchGate"/>
                 </span>
@@ -74,7 +74,7 @@
 	  {% endif %}
           {% if site.orcid_id%}
           <li>
-              <a href="https://orcid.org/{ site.orcid_id }}">  
+              <a href="https://orcid.org/{{ site.orcid_id }}">  
               <span class="soc-icon">
                   <img src="../assets/img/ORCID_iDW.png" alt="Orchid"/>
                 </span>
