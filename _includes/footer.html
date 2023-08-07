@@ -40,33 +40,45 @@
           <li>
               <a href="https://github.com/{{ site.github_user }}">
                  <span class="soc-icon">
-                  <img src="../assets/img/YumaIcon.png" alt="githuc icon"/>
+                  <img src="../assets/img/GithubW.svg.png" alt="Github"/>
                 </span>
               </a>
           </li> 
       	  {% endif %}
           {% if site.twitter_username %}
           <li>
-              <a href="https://twitter.com/{{ site.github_user }}">  
-              <b>{{ "Twitter" | escape }}</b>
+              <a href="https://twitter.com/{{ site.twitter_user }}">  
+               <span class="soc-icon">
+                  <img src="../assets/img/TwitterW.png" alt="Twitter"/>
+                </span>
+	      </a>
           </li>
 	  {% endif %}
 	  {% if site.researchgate %}
           <li>
               <a href="https://www.researchgate.net/profile/{{ site.researchgate }}">  
-              <b>{{ "Researchgate" | escape }}</b>
+              <span class="soc-icon">
+                  <img src="../assets/img/ResearchGateW.svg.png" alt="ResearchGate"/>
+                </span>
+	      </a>
           </li>
 	  {% endif %}
           {% if site.googlescholar %}
           <li>
               <a href="https://scholar.google.com.au/citations?user={ site.googlescholar }}">  
-              <b>{{ "GoogleShcolar" | escape }}</b>
+              <span class="soc-icon">
+                  <img src="../assets/img/GoogeleScholarW.png" alt="ResearchGate"/>
+                </span>
+	      </a>
           </li>
 	  {% endif %}
           {% if site.orcid%}
           <li>
               <a href="https://orcid.org/{ site.orcid }}">  
-              <b>{{ "Orcid" | escape }}</b>
+              <span class="soc-icon">
+                  <img src="../assets/img/ORCID_iDW.png" alt="ResearchGate"/>
+                </span>
+	      </a>
           </li>
 	  {% endif %}
 		
